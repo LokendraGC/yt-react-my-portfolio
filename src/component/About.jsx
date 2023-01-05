@@ -13,11 +13,11 @@ const About = () => {
                 </div>
 
                 <p className='text-xl mt-20'>
- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos at quam distinctio beatae laboriosam cum voluptates ab possimus, adipisci, atque sunt ipsum quisquam, dignissimos minima? Corporis quidem velit asperiores error?
+                    I am from surkhet I passed my plus two from South Asian Scholars Academy Collige in Comuter Science.I like reading books, do coding and contineously hunger to learn new things like techonologies,movies stuff, anything new..  ctio beatae laboriosam cum voluptates ab possimus, adipisci, atque sunt ipsum quisquam, dignissimos minima? Corporis quidem velit asperiores error?
                 </p>
                 <br />
                 <p className='text-xl'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam nam modi nihil omnis consectetur facilis quis. Nobis voluptas facere ratione officiis minus accusamus ipsum voluptates sequi. Quaerat, voluptas nisi?
+                    I want to become a full stack Developer and eager to work at Leapfrog Technology. Delectus quisquam nam modi nihil omnis consectetur facilis quis. Nobis voluptas facere ratione officiis minus accusamus ipsum voluptates sequi. Quaerat, voluptas nisi?
                 </p>
             </div>
         </div>
