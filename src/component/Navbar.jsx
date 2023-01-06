@@ -28,7 +28,7 @@ function Navbar() {
     ]
     return (
         <div className='flex justify-between items-center w-full
-    h-20 px-8 text-white bg-black fixed '>
+    h-20 px-8 text-white bg-black sticky top-0 '>
             <div>
                 <h1 className='text-4xl font-signature'>Lokendra</h1>
             </div>

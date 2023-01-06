@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div
         name="home"
-        className='h-screen w-full bg-gradient-to-b from-black via-black
+        className='h-screen  w-full bg-gradient-to-b from-black via-black
          to-gray-900 
     '
     >
@@ -53,7 +53,7 @@ const Home = () => {
             <div>
                 <img src={MyImage}
                     alt="My portfolio"
-                    className='rounded-2xl mx-auto w-2/3  md:
+                    className='rounded-full  mx-auto w-80  
                         '/>
             </div>
         </div>
