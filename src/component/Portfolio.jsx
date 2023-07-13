@@ -75,13 +75,13 @@ function Portfolio() {
                     className="text-white w-1/2  
                                  m-4 duration-200 
                                  hover:scale-150 max-sm:hover:scale-100
-                                 "
+                                max-sm:m-3"
                   >
                     Demo
                   </button>
                   <button
                     className="text-white w-1/2   m-4 
-                             duration-200 hover:scale-150 max-sm:hover:scale-100"
+                             duration-200 hover:scale-150 max-sm:hover:scale-100 max-sm:m-3"
                   >
                     Code
                   </button>

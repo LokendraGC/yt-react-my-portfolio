@@ -51,7 +51,7 @@ function Navbar() {
             </ul>
 
             <div onClick={() => setNav(!nav)} className='text-gray-400 cursor- 
-             pointer z-10 md:hidden'>
+             pointer z-10 md:hidden max-sm:duration-200'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
 
@@ -59,7 +59,8 @@ function Navbar() {
             {nav && (
 
                 <ul className='flex flex-col justify-center items-center
-            absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray'>
+            absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray
+            '>
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
@@ -71,6 +72,7 @@ function Navbar() {
                    to={link} 
                    smooth 
                    duration={500}
+                   
                    >
                     {link}
 
