@@ -5,44 +5,59 @@ import html from "../assets/html.png";
 import reactt from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
+import figma from '../assets/figma_no.png'
+import python from '../assets/python_no.png'
+
 
 function Exprience() {
   const techs = [
     {
       id: 1,
-      src: css,
-      title: "CSS",
-    },
-    {
-      id: 2,
-      src: github,
-      title: "Github",
-    },
-    {
-      id: 3,
       src: html,
       title: "HTML",
     },
     {
+      id: 2,
+      src: css,
+      title: "CSS",
+    },
+    {
+      id: 3,
+      src: tailwind,
+      title: "Tailwind CSS",
+    },
+    {
       id: 4,
-      src: reactt,
-      title: "React",
+      src: javascript,
+      title: "Javascript",
     },
     {
       id: 5,
-      src: javascript,
-      title: "JavaScript",
+      src: reactt,
+      title: "React JS",
     },
     {
       id: 6,
-      src: tailwind,
-      title: "TailWind",
+      src: github,
+      title: "Github",
     },
+    {
+      id: 7,
+      src: figma,
+      title: "Figma",
+    },
+    {
+      id: 8,
+      src: python,
+      title: "Python",
+    },
+
   ];
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-900 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-900 to-black w-full h-[900px]
+     max-sm:pt-[50px]  " 
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col 

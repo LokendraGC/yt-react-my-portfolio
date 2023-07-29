@@ -3,6 +3,7 @@ import MyImage from "../assets/loki.jpg"
 import { RiArrowRightSLine } from "react-icons/ri"
 import {Link} from "react-scroll"
 
+
 const Home = () => {
 
     const links= [
@@ -23,12 +24,11 @@ const Home = () => {
         items-center justify-center h-full px-4 md:flex-row"
         >
           <div className="flex flex-col justify-center h-full">
-            <h2 className="text-4xl md:text-7xl font-bold text-white">
-              I Want to be a Full Stack Developer
+            <h2 className="text-4xl mr-64 w-full md:text-7xl font-bold text-white max-sm:text-center">
+              Lokendra GC
             </h2>
-            <p className="max-w-md py-4 text-gray-500 ">
-              I currently studying bachelor's degree in Electronics
-              Communication and Information at Sagarmatha engineering college.
+            <p className="max-w-md py-4 text-gray-500 max-sm:pl-5">
+              Passionate about learning in the field of technology.
             </p>
 
             <div>
@@ -40,7 +40,7 @@ const Home = () => {
                   className="group text-white w-fit px-6 py-3 my-2
                     flex items-center rounded-md bg-gradient-to-t
                      from-cyan-500 to-blue-500 cursor-pointer
-                      max-sm:ml-24"
+                      max-sm:ml-32"
                 >
                   Portfolio
                   <span className="group-hover:rotate-90 duration-300">
