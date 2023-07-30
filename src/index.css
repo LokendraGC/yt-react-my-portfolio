@@ -6,6 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  position: -webkit-sticky;
+  /* padding: 1%; */
+}
+
 
 @layer base{
   html {
@@ -13,8 +18,3 @@
     }
 }
 
-body{
-  position: absolute;
-  
-  /* right: ; */
-}
