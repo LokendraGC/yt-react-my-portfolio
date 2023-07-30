@@ -49,7 +49,7 @@ function Portfolio() {
       <div
         name="portfolio"
         className="bg-gradient-to-b from-black
-         to-gray-900 w-full pt-24 sm:h-screen md:h-screen max-sm:h-[900px]"
+         to-gray-900  pt-24 sm:h-screen md:h-screen max-sm:h-[900px]"
       >
         <div
           className="max-w-screen-lg mx-auto p-4 flex flex-col 

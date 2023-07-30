@@ -12,3 +12,9 @@
     font-family: 'Raleway', sans-serif;
     }
 }
+
+body{
+  position: absolute;
+  
+  /* right: ; */
+}
