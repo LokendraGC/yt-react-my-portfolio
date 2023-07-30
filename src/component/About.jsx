@@ -30,11 +30,16 @@ const About = () => {
           watching movies, and coding, hunger to learn new things like
           technologies, programming, etc.
         </p>
-        <div className="pt-6">
-
+        <div className="pt-4">
           <a href="Lokendra_G_C_CV.pdf" target="_blank">
             <b>
-              
+              <u> Preview CV</u>
+            </b>
+          </a>
+        </div>
+        <div className="pt-4">
+          <a href="Lokendra_G_C_CV.pdf" download>
+            <b>
               <u> Download CV</u>
             </b>
           </a>
