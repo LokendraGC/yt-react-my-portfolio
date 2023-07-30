@@ -1,8 +1,6 @@
 import React from "react";
-import { Document, Page } from "react-pdf";
-// import cv from 'Lokendra_G_C_CV.pdf'
 
-
+// import docs from "../assets/Lokendra_G_C_CV.pdf";
 const About = () => {
   return (
     <div
@@ -32,15 +30,13 @@ const About = () => {
           watching movies, and coding, hunger to learn new things like
           technologies, programming, etc.
         </p>
-        <div>
-          <h3>CV Preview</h3>
+        <div className="pt-6">
 
-          <Document file="Lokendra_G_C_CV.pdf">
-            <Page pageNumber={1} />
-          </Document>
-
-          <a href="Lokendra_G_C_CV.pdf" download>
-            <b> <u>  Download CV</u></b>
+          <a href="Lokendra_G_C_CV.pdf" target="_blank">
+            <b>
+              
+              <u> Download CV</u>
+            </b>
           </a>
         </div>
       </div>
