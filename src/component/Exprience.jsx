@@ -5,7 +5,7 @@ import html from "../assets/html.png";
 import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
-
+import nextjs from '../assets/nex.png'
 
 
 function Exprience() {
@@ -39,7 +39,12 @@ function Exprience() {
       id: 6,
       src: github,
       title: "Github",
-    }
+    },
+    {
+      id: 7,
+      src: nextjs,
+      title: "Next.Js",
+    },
 
   ];
   return (
