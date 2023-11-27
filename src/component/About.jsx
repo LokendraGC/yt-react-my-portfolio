@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="pt-12 w-full h-[450px]  bg-gradient-to-t from-black 
+      className="pt-20 w-full h-[450px]  bg-gradient-to-t from-black 
          to-gray-900
          text-white max-sm:h-[600px]"
     >
