@@ -1,6 +1,7 @@
 import React from "react";
 
-// import docs from "../assets/Lokendra_G_C_CV.pdf";
+// import docs from '../assets/CV_Lokendra_GC'
+
 const About = () => {
   return (
     <div
@@ -23,15 +24,21 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20 w-full ">
-          Hi,I am Lokendra, from surkhet. I am currently doing a bachelor's
-          degree in Electronics, Communication, and Information Engineering at
-          Sagarmatha engineering college. I am interested in the web development
-          field. I want to be a full-stack web Developer. I like reading books,
-          watching movies, and coding, hunger to learn new things like
-          technologies, programming, etc.
+          Hello, I'm Lokendra, hailing from Surkhet. Currently pursuing a
+          bachelor's degree in Electronics, Communication, and Information
+          Engineering at Sagarmatha Engineering College, I am passionate about
+          the field of web development. My goal is to become a proficient
+          full-stack web developer. I enjoy exploring new technologies,
+          programming, and constantly seeking opportunities to expand my
+          knowledge. In my free time, you'll find me engrossed in books,
+          enjoying movies, and indulging my passion for coding.
         </p>
         <div className="pt-4">
-          <a href="Lokendra_G_C_CV.pdf" target="_blank">
+          <a
+            href="Resume_LokendraGC.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <b>
               <u> Preview CV</u>
             </b>

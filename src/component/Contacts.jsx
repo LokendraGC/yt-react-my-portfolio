@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaGithub} from "react-icons/fa";
 import {BsLinkedin} from 'react-icons/bs'
-import{FiInstagram} from 'react-icons/fi'
+import { FaInstagram } from "react-icons/fa";
 
 function Contacts() {
 
@@ -44,7 +44,7 @@ function Contacts() {
                 )
               }
             />
-            <FiInstagram
+            <FaInstagram
               className="h-12 w-12 hover:cursor-pointer  fill-pink-900 "
               onClick={() =>
                 handleInsta("https://www.instagram.com/lokendra.gharti.77")

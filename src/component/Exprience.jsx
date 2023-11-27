@@ -2,11 +2,10 @@ import React from "react";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import html from "../assets/html.png";
-import reactt from "../assets/react.png";
+import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
-import figma from '../assets/figma_no.png'
-import python from '../assets/python_no.png'
+
 
 
 function Exprience() {
@@ -33,24 +32,14 @@ function Exprience() {
     },
     {
       id: 5,
-      src: reactt,
+      src: react,
       title: "React JS",
     },
     {
       id: 6,
       src: github,
       title: "Github",
-    },
-    {
-      id: 7,
-      src: figma,
-      title: "Figma",
-    },
-    {
-      id: 8,
-      src: python,
-      title: "Python",
-    },
+    }
 
   ];
   return (
@@ -68,7 +57,7 @@ function Exprience() {
             className="text-4xl font-bold inline border-b-4 border-gray-500
                  p-2"
           >
-            Exprience
+            Skills
           </p>
           <p className="py-6">
             These are the techonologies I have worked with.

@@ -1,10 +1,9 @@
 import React from 'react'
-import api from "../assets/portfolio/APIs.png"
-import todo_list from "../assets/portfolio/todo_list.png"
-import dbms from "../assets/portfolio/dbms.png"
+import canteen from "../assets/portfolio/canteen.jpg"
+import nike from "../assets/portfolio/nike.jpg"
 import quiz from "../assets/portfolio/quiz.jpg"
-import netflix from "../assets/portfolio/netflix.png"
-
+import two from "../assets/portfolio/two_good_co.jpg"
+import bubble from '../assets/portfolio/bubble_game.jpg'
 
 
 function Portfolio() {
@@ -20,27 +19,39 @@ function Portfolio() {
     const portfolios = [
       {
         id: 1,
-        src: todo_list,
-        demo: "https://notesforfuturework.netlify.app/",
-        href: "https://github.com/LokendraGC/Todo_list",
+        src: canteen,
+        demo: "https://canteen-web-app.vercel.app/",
+        href: "https://github.com/LokendraGC/canteen_web_app",
+        name: "Canteen Project",
       },
       {
         id: 2,
-        src: quiz,
-        href: "https://github.com/LokendraGC/Quizz-web",
+        src: nike,
+        demo: "https://clonenike.netlify.app",
+        href: "https://github.com/LokendraGC/Nike_Cone",
+        name: "Nike Clone",
       },
+
       {
         id: 3,
-        src: dbms,
-        href: "https://github.com/LokendraGC/DBMS_Project",
+        src: two,
+        demo: "https://clonetwogoodco.netlify.app",
+        href: "https://github.com/LokendraGC/clone_two_good_co",
+        name: "Two Good Co website",
       },
       {
         id: 4,
-        src: netflix,
+        src: bubble,
+        demo: "https://lokendragc.github.io/Js_bubble_game/",
+        href: "https://github.com/LokendraGC/Js_bubble_game",
+        name: "Bubble Game",
       },
       {
         id: 5,
-        src: api,
+        src: quiz,
+        demo: "",
+        href: "https://github.com/LokendraGC/Quizz-web",
+        name: "Quiz App",
       },
     ];
 
@@ -61,7 +72,7 @@ function Portfolio() {
                      border-gray-500
                  p-2 "
             >
-              Portfolio
+              Projects
             </p>
             <p className="py-6">Check Out some of my work right here</p>
           </div>
@@ -69,7 +80,7 @@ function Portfolio() {
             className="w-full grid grid-cols-2 sm:grid-cols-3 
               gap-8 text-center py-8 px-8 sm:px-0  "
           >
-            {portfolios.map(({ id, src, href, demo }) => (
+            {portfolios.map(({ id, src, href, demo, name }) => (
               <div
                 key={id}
                 className="shadow-md shadow-gray-500 
@@ -108,6 +119,7 @@ function Portfolio() {
                     </div>
                   </button>
                 </div>
+                <h2 className='text-cyan-500'>{name}</h2>
               </div>
             ))}
           </div>
