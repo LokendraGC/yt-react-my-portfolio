@@ -1,7 +1,7 @@
 import React from 'react'
 import canteen from "../assets/portfolio/canteen.jpg"
 import nike from "../assets/portfolio/nike.jpg"
-import quiz from "../assets/portfolio/quiz.jpg"
+import netflix from '../assets/portfolio/netflix.png'
 import two from "../assets/portfolio/two_good_co.jpg"
 import bubble from '../assets/portfolio/bubble_game.jpg'
 
@@ -48,10 +48,10 @@ function Portfolio() {
       },
       {
         id: 5,
-        src: quiz,
-        demo: "",
-        href: "https://github.com/LokendraGC/Quizz-web",
-        name: "Quiz App",
+        src: netflix,
+        demo: "https://netflix-clone-phi-jet-40.vercel.app/",
+        href: "https://github.com/LokendraGC/netflix-clone",
+        name: "Netflix Clone",
       },
     ];
 
