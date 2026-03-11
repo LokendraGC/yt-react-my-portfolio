@@ -6,11 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  position: -webkit-sticky;
-  /* padding: 1%; */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #111827;
 }
 
+body{
+  position: -webkit-sticky;
+}
 
 @layer base{
   html {
