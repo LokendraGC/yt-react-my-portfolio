@@ -1,5 +1,4 @@
 import React from 'react'
-import canteen from "../assets/portfolio/canteen.jpg"
 import nike from "../assets/portfolio/nike.jpg"
 import netflix from '../assets/portfolio/netflix.png'
 import two from "../assets/portfolio/two_good_co.jpg"
