@@ -5,6 +5,8 @@ import html from "../assets/html.png";
 import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
+import node from '../assets/node_js.webp'
+import laravel from '../assets/laravel_php.webp'
 import nextjs from '../assets/nex.png'
 
 
@@ -36,14 +38,24 @@ function Exprience() {
       title: "React JS",
     },
     {
-      id: 6,
-      src: github,
-      title: "Github",
-    },
-    {
       id: 7,
       src: nextjs,
       title: "Next.Js",
+    },
+    {
+      id: 8,
+      src: node,
+      title: "Node.Js",
+    },
+    {
+      id: 9,
+      src: laravel,
+      title: "Laravel",
+    },
+    {
+      id: 6,
+      src: github,
+      title: "Github",
     },
 
   ];

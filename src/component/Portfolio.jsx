@@ -4,6 +4,8 @@ import nike from "../assets/portfolio/nike.jpg"
 import netflix from '../assets/portfolio/netflix.png'
 import two from "../assets/portfolio/two_good_co.jpg"
 import bubble from '../assets/portfolio/bubble_game.jpg'
+import raithaane from '../assets/portfolio/raithaane.webp'
+import chatbot from '../assets/portfolio/chatbot.webp'
 
 
 function Portfolio() {
@@ -19,10 +21,17 @@ function Portfolio() {
     const portfolios = [
       {
         id: 1,
-        src: canteen,
-        demo: "https://canteen-web-app.vercel.app/",
-        href: "https://github.com/LokendraGC/canteen_web_app",
-        name: "Canteen Project",
+        src: chatbot,
+        demo: "https://kxahajur.vercel.app/",
+        href: "https://github.com/LokendraGC/",
+        name: "Chatbot Service",
+      },
+      {
+        id: 6,
+        src: raithaane,
+        demo: "https://raithaane.vercel.app/",
+        href: "https://github.com/LokendraGC/",
+        name: "Raithaane Spot",
       },
       {
         id: 2,
@@ -52,7 +61,7 @@ function Portfolio() {
         demo: "https://netflix-clone-phi-jet-40.vercel.app/",
         href: "https://github.com/LokendraGC/netflix-clone",
         name: "Netflix Clone",
-      },
+      }
     ];
 
 

@@ -23,19 +23,17 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20 w-full ">
-          Hello, I'm Lokendra, hailing from Surkhet. Currently pursuing a
-          bachelor's degree in Electronics, Communication, and Information
-          Engineering at Sagarmatha Engineering College, I am passionate about
-          the field of web development. My goal is to become a proficient
-          full-stack web developer. I enjoy exploring new technologies,
-          programming, and constantly seeking opportunities to expand my
-          knowledge. In my free time, you'll find me engrossed in books,
-          enjoying movies, and indulging my passion for coding.
-        </p>
+        <p className="text-xl mt-20 w-full">
+  Hello, I'm Lokendra from Surkhet, Nepal. I completed my Bachelor's degree in Electronics, Communication, and Information Engineering from Sagarmatha Engineering College. I am passionate about web development and aspire to become a proficient full-stack developer. 
+
+  Currently, I work as a Web Developer at <b><a href="https://webtechnepal.com/" target="_blank" rel="noopener noreferrer">Webtech Nepal</a></b>. I enjoy exploring new technologies, solving problems through programming, and continuously expanding my technical knowledge.
+
+  In my free time, I like reading books, watching movies, and working on coding projects that help me grow as a developer.
+</p>
+
         <div className="pt-4">
           <a
-            href="Resume_LokendraGC.pdf"
+            href="resume_lokendra_gc.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +43,7 @@ const About = () => {
           </a>
         </div>
         <div className="pt-4">
-          <a href="Resume_LokendraGC.pdf" download>
+          <a href="resume_lokendra_gc.pdf" download>
             <b>
               <u> Download CV</u>
             </b>

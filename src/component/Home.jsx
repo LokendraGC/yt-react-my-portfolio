@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../assets/loki.jpg";
+import MyImage from "../assets/lokendra.png";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 
