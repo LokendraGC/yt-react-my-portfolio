@@ -21,7 +21,7 @@ function Portfolio() {
       {
         id: 1,
         src: chatbot,
-        demo: "https://kxahajur.vercel.app/",
+        demo: "https://karmi.webtechnepal.com/",
         href: "https://github.com/LokendraGC/",
         name: "Chatbot Service",
       },

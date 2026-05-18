@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="pt-4">
           <a
-            href="resume_lokendra_gc.pdf"
+            href="CV_Lokendra_GC.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const About = () => {
           </a>
         </div>
         <div className="pt-4">
-          <a href="resume_lokendra_gc.pdf" download>
+          <a href="CV_Lokendra_GC.pdf" download>
             <b>
               <u> Download CV</u>
             </b>
