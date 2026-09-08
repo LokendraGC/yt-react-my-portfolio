@@ -1,10 +1,11 @@
 import React from 'react'
 import nike from "../assets/portfolio/nike.jpg"
 import netflix from '../assets/portfolio/netflix.png'
-import two from "../assets/portfolio/two_good_co.jpg"
+// import two from "../assets/portfolio/two_good_co.jpg"
 import bubble from '../assets/portfolio/bubble_game.jpg'
 import raithaane from '../assets/portfolio/raithaane.webp'
 import chatbot from '../assets/portfolio/chatbot.webp'
+import fireGoal from '../assets/myfire_goal.webp'
 
 
 function Portfolio() {
@@ -20,42 +21,41 @@ function Portfolio() {
     const portfolios = [
       {
         id: 1,
+        src: fireGoal,
+        demo: "https://myfiregoal.com/",
+        href: "https://github.com/LokendraGC/",
+        name: "My Fire Goal",
+      },
+      {
+        id: 2,
         src: chatbot,
         demo: "https://karmi.webtechnepal.com/",
         href: "https://github.com/LokendraGC/",
         name: "Chatbot Service",
       },
       {
-        id: 6,
+        id: 3,
         src: raithaane,
         demo: "https://raithaane.vercel.app/",
         href: "https://github.com/LokendraGC/",
         name: "Raithaane Spot",
       },
       {
-        id: 2,
+        id: 4,
         src: nike,
         demo: "https://clonenike.netlify.app",
         href: "https://github.com/LokendraGC/Nike_Cone",
         name: "Nike Clone",
       },
-
       {
-        id: 3,
-        src: two,
-        demo: "https://clonetwogoodco.netlify.app",
-        href: "https://github.com/LokendraGC/clone_two_good_co",
-        name: "Two Good Co website",
-      },
-      {
-        id: 4,
+        id: 5,
         src: bubble,
         demo: "https://lokendragc.github.io/Js_bubble_game/",
         href: "https://github.com/LokendraGC/Js_bubble_game",
         name: "Bubble Game",
       },
       {
-        id: 5,
+        id: 6,
         src: netflix,
         demo: "https://netflix-clone-phi-jet-40.vercel.app/",
         href: "https://github.com/LokendraGC/netflix-clone",

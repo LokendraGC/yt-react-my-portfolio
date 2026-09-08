@@ -2,12 +2,13 @@ import React from "react";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import html from "../assets/html.png";
-import react from "../assets/react.png";
+// import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import node from '../assets/node_js.webp'
 import laravel from '../assets/laravel_php.webp'
-import nextjs from '../assets/nex.png'
+import wordpress from '../assets/wordpress.png'
+// import nextjs from '../assets/nex.png'
 
 
 function Exprience() {
@@ -34,26 +35,21 @@ function Exprience() {
     },
     {
       id: 5,
-      src: react,
-      title: "React JS",
-    },
-    {
-      id: 7,
-      src: nextjs,
-      title: "Next.Js",
-    },
-    {
-      id: 8,
       src: node,
       title: "Node.Js",
     },
     {
-      id: 9,
+      id: 6,
       src: laravel,
       title: "Laravel",
     },
     {
-      id: 6,
+      id: 7,
+      src: wordpress,
+      title: "Wordpress",
+    },
+    {
+      id: 8,
       src: github,
       title: "Github",
     },
@@ -62,7 +58,7 @@ function Exprience() {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-900 to-black w-full h-[900px]
+      className="bg-gradient-to-b from-gray-900 to-black w-full mt-24 h-[900px]
      max-sm:pt-[50px]  " 
     >
       <div
